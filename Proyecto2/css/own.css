@@ -1,0 +1,132 @@
+/*  G E N E R A L   C S S   S T Y L E  */
+	body {
+		display: flex;
+		min-height: 100vh;
+		flex-direction: column;
+	}
+	main {
+		flex: 1 0 auto;
+	}
+
+	.navbar {
+		padding-top: 7px;
+		border-radius: 0;
+	}
+
+	a#logo {
+		font-weight: bold;
+	  	text-decoration: underline;
+		border-right: 1px solid grey;
+		border-left: 1px solid grey;
+	}
+
+	header { z-index: 10; }
+	.border{ border: solid 2px rgb(180,180,180); }
+
+
+/*  I N D E X   C S S   S T Y L E  */
+	.slider {
+		margin-bottom: 0px;
+	}
+
+	.slidetitle{ 
+		background-color: rgba(0, 0, 0, 0.35);
+	}
+
+
+/*  M I   C U E N T A   C S S   S T Y L E S  */  /*DEPRECATED*/
+
+	#cuenta-data{ display: inline; }
+	#cuenta-ordenes{ display: none; }
+	.titulo{ border-left: 10px solid orange;
+		border-bottom: 2px solid black; }
+
+
+/*  O R D E N   E N V I O   C S S   S T Y L E S  */
+	#map{
+	        width: auto;
+        	height: 300px;
+	        background-color: grey;
+	}
+
+
+/*  C A T A L O G O   &   M U E B L E   C S S   S T Y L E S */
+
+
+	.card{
+		padding: 10px;
+	}
+
+	.card-image img{ height: auto; }
+
+	/*SANGRIAS*/
+	.s1 {padding-left: 10px;}
+	.s2 {padding-left: 20px;}
+	.s3 {margin-left:20px;}
+	.s4 {padding-top: 3px;}
+	.s5 {float:left;}
+
+	span.price{
+		text-decoration: line-through;
+		color: gray;
+	}
+
+	.card-content p i{
+		text-decoration: none;
+		color: black;
+		padding-left:10px;
+	}
+
+	.card-content a.cat{
+		padding-left: 10px;
+		padding-right: 10px;
+		margin-left: -7px;
+	}
+
+	b.discount, b.real{
+		color: green;
+	}
+
+	.cantidad { margin-left:-4px; }
+
+	.last-row { margin-bottom:0;
+		padding-bottom: 0; }
+		
+/*  ENTERPRSE CODE */ 
+
+	
+	#submenu > ul{
+	    display: none;
+        position: absolute;
+        z-index: 1;
+	}
+	
+	#submenu .a{
+        display: block;
+        width: 100%;
+	    }
+	    
+	#submenu .b{
+        display: block;
+        width: 125%;
+	    }
+	    
+	#submenu .c{
+        display: block;
+        width: 170%;
+	    }
+	    
+    
+    #submenu a{
+        color: #BBB;
+        text-decoration: none;
+    }
+	
+	#submenu:hover ul{
+	    display: block;
+	}
+	
+	#submenu a:hover{
+	    background-color: #000;
+	    color: #FFF;
+	}

@@ -1,0 +1,21 @@
+<!-- JQUERIES -->
+	 <script src="code/jquery-3.2.1.min.js"></script>
+     <script src="code/jquery-2.1.1.min.js"></script>
+
+	<!-- BOOTSTRAP (HEADER) -->
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	 <script src="code/bootstrap.min.js"></script>
+
+	<!-- MATERIALIZE -->
+	 <link href="code/material">
+         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	 <link type="text/css" rel="stylesheet" href="code/materialize.min.css"  media="screen,projection"/>
+     <script src="code/materialize.min.js"></script>
+
+    <!-- VALIDETTA -->
+     <link href="code/validetta.min.css" rel="stylesheet" type="text/css" media="screen" >
+	 <script type="text/javascript" src="code/validetta.min.js"></script>
+	 <script type="text/javascript" src="code/validettaES.js"></script>
+    <!-- CONFIRM -->
+	<link rel="stylesheet" href="code/jquery-confirm.min.css">
+	<script src="code/jquery-confirm.min.js"></script>

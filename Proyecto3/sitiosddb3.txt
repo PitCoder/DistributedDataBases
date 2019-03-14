@@ -1,0 +1,166 @@
+mysql> show tables;
++-------------------+
+| Tables_in_ddb3    |
++-------------------+
+| H1Acabado         |
+| H1AcabadoModelo   |
+| H1Almacen         |
+| H1Asesora         |
+| H1Categoria       |
+| H1CategoriaModelo |
+| H1Cliente         |
+| H1Compra          |
+| H1CompraMueble    |
+| H1Envio           |
+| H1Estado          |
+| H1GestionAlmacen  |
+| H1Lote            |
+| H1Material        |
+| H1MaterialModelo  |
+| H1Modelo          |
+| H1Rotacion        |
+| H1Supervisa       |
+| H1UsuarioEmpresa  |
+| H2Acabado         |
+| H2AcabadoModelo   |
+| H2Almacen         |
+| H2Asesora         |
+| H2Categoria       |
+| H2CategoriaModelo |
+| H2Cliente         |
+| H2Compra          |
+| H2CompraMueble    |
+| H2Envio           |
+| H2Estado          |
+| H2GestionAlmacen  |
+| H2Lote            |
+| H2Material        |
+| H2MaterialModelo  |
+| H2Modelo          |
+| H2Rotacion        |
+| H2Supervisa       |
+| H2UsuarioEmpresa  |
+| H3Acabado         |
+| H3AcabadoModelo   |
+| H3Almacen         |
+| H3Asesora         |
+| H3Categoria       |
+| H3CategoriaModelo |
+| H3Cliente         |
+| H3Compra          |
+| H3CompraMueble    |
+| H3Envio           |
+| H3Estado          |
+| H3GestionAlmacen  |
+| H3Lote            |
+| H3Material        |
+| H3MaterialModelo  |
+| H3Modelo          |
+| H3Rotacion        |
+| H3Supervisa       |
+| H3UsuarioEmpresa  |
+| V1Acabado3251     |
+| V1Modelo3252      |
+| V1Modelo3253      |
+| V1Rotacion3273    |
+| V2Categoria3251   |
+| V2Modelo3255      |
+| V2Rotacion3274    |
+| V3Modelo3256      |
+| V3Rotacion3271    |
+| V3Rotacion3272    |
++-------------------+
+
+mysql> desc V1Modelo3252;
++-------------+-------------+------+-----+---------+-------+
+| Field       | Type        | Null | Key | Default | Extra |
++-------------+-------------+------+-----+---------+-------+
+| modelo      | varchar(20) | NO   | PRI | NULL    |       |
+| dimenAncho  | float       | YES  |     | NULL    |       |
+| dimenProfun | float       | YES  |     | NULL    |       |
+| precio      | float       | YES  |     | NULL    |       |
+| idEstado    | int(11)     | YES  |     | NULL    |       |
++-------------+-------------+------+-----+---------+-------+
+
+mysql> desc V1Modelo3253;
++---------+--------------+------+-----+---------+-------+
+| Field   | Type         | Null | Key | Default | Extra |
++---------+--------------+------+-----+---------+-------+
+| modelo  | varchar(20)  | NO   | PRI | NULL    |       |
+| foto    | varchar(30)  | YES  |     | NULL    |       |
+| descrip | varchar(400) | YES  |     | NULL    |       |
++---------+--------------+------+-----+---------+-------+
+
+mysql> desc V1Rotacion3273;
++-----------+--------------+------+-----+---------+-------+
+| Field     | Type         | Null | Key | Default | Extra |
++-----------+--------------+------+-----+---------+-------+
+| operacion | int(11)      | NO   | PRI | NULL    |       |
+| idAlmacen | int(11)      | YES  |     | NULL    |       |
+| fecha     | date         | YES  |     | NULL    |       |
+| motivo    | varchar(200) | YES  |     | NULL    |       |
++-----------+--------------+------+-----+---------+-------+
+
+mysql> desc V2Categoria3251;
++--------+-------------+------+-----+---------+-------+
+| Field  | Type        | Null | Key | Default | Extra |
++--------+-------------+------+-----+---------+-------+
+| id     | int(11)     | NO   | PRI | NULL    |       |
+| nombre | varchar(50) | YES  |     | NULL    |       |
++--------+-------------+------+-----+---------+-------+
+
+mysql> desc V2Modelo3255;
++-----------+-------------+------+-----+---------+-------+
+| Field     | Type        | Null | Key | Default | Extra |
++-----------+-------------+------+-----+---------+-------+
+| modelo    | varchar(20) | NO   | PRI | NULL    |       |
+| dimenAlto | float       | YES  |     | NULL    |       |
+| descuento | float       | YES  |     | NULL    |       |
++-----------+-------------+------+-----+---------+-------+
+
+mysql> desc V2Rotacion3274;
++-----------+--------------+------+-----+---------+-------+
+| Field     | Type         | Null | Key | Default | Extra |
++-----------+--------------+------+-----+---------+-------+
+| operacion | int(11)      | NO   | PRI | NULL    |       |
+| idLote    | int(11)      | YES  |     | NULL    |       |
+| idAlmacen | int(11)      | YES  |     | NULL    |       |
+| cantidad  | int(11)      | YES  |     | NULL    |       |
+| fecha     | date         | YES  |     | NULL    |       |
+| motivo    | varchar(200) | YES  |     | NULL    |       |
+| entrada   | tinyint(1)   | YES  |     | NULL    |       |
++-----------+--------------+------+-----+---------+-------+
+
+mysql> desc V3Modelo3256;
++-------------+--------------+------+-----+---------+-------+
+| Field       | Type         | Null | Key | Default | Extra |
++-------------+--------------+------+-----+---------+-------+
+| modelo      | varchar(20)  | NO   | PRI | NULL    |       |
+| nombre      | varchar(100) | YES  |     | NULL    |       |
+| foto        | varchar(30)  | YES  |     | NULL    |       |
+| dimenAlto   | float        | YES  |     | NULL    |       |
+| dimenAncho  | float        | YES  |     | NULL    |       |
+| dimenProfun | float        | YES  |     | NULL    |       |
+| descrip     | varchar(400) | YES  |     | NULL    |       |
+| precio      | float        | YES  |     | NULL    |       |
+| descuento   | float        | YES  |     | NULL    |       |
+| idEstado    | int(11)      | YES  |     | NULL    |       |
++-------------+--------------+------+-----+---------+-------+
+
+mysql> desc V3Rotacion3271;
++-----------+---------+------+-----+---------+-------+
+| Field     | Type    | Null | Key | Default | Extra |
++-----------+---------+------+-----+---------+-------+
+| operacion | int(11) | NO   | PRI | NULL    |       |
+| idAlmacen | int(11) | YES  |     | NULL    |       |
++-----------+---------+------+-----+---------+-------+
+
+mysql> desc V3Rotacion3272;
++-----------+------------+------+-----+---------+-------+
+| Field     | Type       | Null | Key | Default | Extra |
++-----------+------------+------+-----+---------+-------+
+| operacion | int(11)    | NO   | PRI | NULL    |       |
+| cantidad  | int(11)    | YES  |     | NULL    |       |
+| entrada   | tinyint(1) | YES  |     | NULL    |       |
++-----------+------------+------+-----+---------+-------+
+
