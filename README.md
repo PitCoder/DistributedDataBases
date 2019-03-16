@@ -8,9 +8,11 @@
  - Fragmentation (Leading to a Distributed Database)
  
 ### Mueblerias Quetzal
+<p align="justify">
 This system has been developed for a simulated company named **Mueblerías Quetzal S.A. de C.V.** with the purpose of develope an application which supports inventory control, retail, user registration. Providing to the company a fast and efficient tool and help it to get into e-commerce.
+</p>
 
-#### Devlopment Tools and Features
+#### Development Tools and Features
 The development of this project was made with the following features grouped in the Database Server and Web Server:
 
 **Database Server Features**
