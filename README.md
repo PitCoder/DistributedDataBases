@@ -8,12 +8,14 @@
  - Fragmentation (Leading to a Distributed Database)
  
 ### Distributed Databases (An Overview)
-
-<img src="https://github.com/PitCoder/DistributedDataBases/blob/master/IMG/replication.gif?s=500?v=5" alt="Replication"/>
+<img src="https://github.com/PitCoder/DistributedDataBases/blob/master/IMG/replication.gif" alt="Replication"/>
  
+ 
+ 
+
 ### Mueblerias Quetzal
 <p align="justify">
-This system has been developed for a simulated company named **Mueblerías Quetzal S.A. de C.V.** with the purpose of create an application which supports inventory control, retail, user registration. Providing to the company a fast and efficient tool and help it to get into e-commerce.
+This system has been developed for a company named **Mueblerías Quetzal S.A. de C.V.** with the purpose of create an application which supports inventory control, retail, user registration. Providing to the company a fast and efficient tool and help it to get into e-commerce.
 </p>
 
 #### Development Tools and Features
@@ -35,13 +37,11 @@ The development of this project was made with the following features grouped in 
 - CSS version: 3
 
 #### Database Model
-
 <p align="center">
   <img src="https://github.com/PitCoder/DistributedDataBases/blob/master/IMG/proyecto1_database.png" alt="DatabaseP1"/>
 </p>
 
 #### Screenshoots
-
 <p align="center">
   <img src="https://github.com/PitCoder/DistributedDataBases/blob/master/IMG/proyecto1_1.png" alt="SSP1_1"/>
   <img src="https://github.com/PitCoder/DistributedDataBases/blob/master/IMG/proyecto1_2.png" alt="SSP1_2"/>
@@ -49,7 +49,7 @@ The development of this project was made with the following features grouped in 
 
 ### Multidatabase System
 <p align="justify">
-A multidatabase system solution has been developed which allows **Teatro Aktuar Company** manage the furniture rented from **Mueblerias Quetzal** in order to improve their performance and operations related with inventory.
+A multidatabase system solution has been developed which allows **Teatro Aktuar** company manage the furniture rented from **Mueblerias Quetzal**, in order to improve their performance and operations related with inventory.
 </p>
 
 #### Development Tools and Features
@@ -77,23 +77,53 @@ The development of this project was made with the following features grouped in 
 - PHP version: 7.0.8
 
 #### System Architecture
-
 <p align="center">
   <img src="https://github.com/PitCoder/DistributedDataBases/blob/master/IMG/proyecto2_architecture.png" alt="ArchitectureP2"/>
 </p>
 
 #### Database Model
-
 <p align="center">
   <img src="https://github.com/PitCoder/DistributedDataBases/blob/master/IMG/proyecto2_database.png" alt="DatabaseP2"/>
 </p>
 
 #### Screenshoots
-
 <p align="center">
   <img src="https://github.com/PitCoder/DistributedDataBases/blob/master/IMG/proyecto2_1.png" alt="SSP2_1"/>
   <img src="https://github.com/PitCoder/DistributedDataBases/blob/master/IMG/proyecto2_2.png" alt="SSP2_2"/>
   <img src="https://github.com/PitCoder/DistributedDataBases/blob/master/IMG/proyecto2_3.png" alt="SSP2_3"/> 
+</p>
+
+### Fragmentation
+<p align="justify">
+In this stage the company needed to have its database fragmented, this feature of the database server allows defining groups of names or index keys within a table, each group or fragment can be stored in a separate database associated with a specific physical disk. From the perspective of an end user (or client application) fragmented tables are identical to a non-fragmented table, therefore providing "transparency" and "replication" to the distributed system.
+</p>
+
+#### Features
+Fragmentation provides the following features to the system:
+
+- Single User Response Time
+- Concurrence
+- Transparency to End User
+- Availability
+- Backup and restoration features
+- Faster Loading data
+
+#### Horizontal Fragmentation Model
+<p align="center">
+  <img src="https://github.com/PitCoder/DistributedDataBases/blob/master/IMG/proyecto3_hdatabase.png" alt="HFM"/>
+</p>
+
+#### Vertical Fragmentation Model
+<p align="center">
+  <img src="https://github.com/PitCoder/DistributedDataBases/blob/master/IMG/proyecto3_vdatabase.png" alt="VFM"/>
+</p>
+
+#### Screenshoots
+<p align="center">
+  <img src="https://github.com/PitCoder/DistributedDataBases/blob/master/IMG/proyecto3_1.png" alt="SSP3_1"/>
+  <img src="https://github.com/PitCoder/DistributedDataBases/blob/master/IMG/proyecto3_2.png" alt="SSP3_2"/>
+  <img src="https://github.com/PitCoder/DistributedDataBases/blob/master/IMG/proyecto3_3.png" alt="SSP3_3"/>
+  <img src="https://github.com/PitCoder/DistributedDataBases/blob/master/IMG/proyecto3_4.png" alt="SSP3_4"/> 
 </p>
 
 ### Team
@@ -111,5 +141,3 @@ The development of this project was made with the following features grouped in 
 - Copyright 2017 © <a href="https://github.com/PitCoder" target="_blank">Eric Alejandro López Ayala</a>
 <a href="https://github.com/DavidFCT" target="_blank">David Flores Casanova</a>
 <a href="https://github.com/DanielOrtegaZ" target="_blank">Daniel Isaí Ortega Zuñiga</a>.
-
-
