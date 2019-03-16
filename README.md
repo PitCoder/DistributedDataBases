@@ -120,8 +120,8 @@ Fragmentation provides the following features to the system:
 - Concurrence
 - Transparency to End User
 - Availability
-- Backup and restoration features
-- Faster Loading data
+- Backup and Restoration Features
+- Faster Loading Data
 
 #### Horizontal Fragmentation Model
 <p align="center">
