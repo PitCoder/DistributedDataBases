@@ -21,9 +21,11 @@ A distributed database is a database in which not all storage devices are attach
 Two processes ensure that the distributed databases remain up-to-date and current: replication and duplication.
 
 <p align="justify">
+ 
  - **Replication**: involves using specialized software that looks for changes in the distributive database. Once the changes have been identified, the replication process makes all the databases look the same.
     
  - **Duplication**: on the other hand, has less complexity. It basically identifies one database as a master and then duplicates that database.
+ 
 </p>
 
 ### Mueblerias Quetzal
