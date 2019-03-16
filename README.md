@@ -8,10 +8,23 @@
  - Fragmentation (Leading to a Distributed Database)
  
 ### Distributed Databases (An Overview)
-<img src="https://github.com/PitCoder/DistributedDataBases/blob/master/IMG/replication.gif" alt="Replication"/>
- 
- 
- 
+
+#### What is a Distributed Database?
+<p align="justify">
+A distributed database is a database in which not all storage devices are attached to a common processor. It may be stored in multiple computers, located in the same physical location; or may be dispersed over a network of interconnected computers. A distributed database system consists of loosely coupled sites that share no physical components.
+</p>
+
+<p align="center">
+ <img src="https://github.com/PitCoder/DistributedDataBases/blob/master/IMG/replication.gif" alt="Replication"/>
+</p>
+
+Two processes ensure that the distributed databases remain up-to-date and current: replication and duplication.
+
+<p align="justify">
+ - **Replication**: involves using specialized software that looks for changes in the distributive database. Once the changes have been identified, the replication process makes all the databases look the same.
+    
+ - **Duplication**: on the other hand, has less complexity. It basically identifies one database as a master and then duplicates that database.
+</p>
 
 ### Mueblerias Quetzal
 <p align="justify">
