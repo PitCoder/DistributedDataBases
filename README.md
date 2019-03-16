@@ -11,9 +11,26 @@
 This system has been developed for a simulated company named **Mueblerías Quetzal S.A. de C.V.** with the purpose of develope an application which supports inventory control, retail, user registration. Providing to the company a fast and efficient tool and help it to get into e-commerce.
 
 #### Devlopment Tools and Features
-The development of this project was made with the following features grouped in the Database Server and Web Server,
+The development of this project was made with the following features grouped in the Database Server and Web Server:
 
+**Database Server Features**
+- Apache/2.4.6 (CentOS) OpenSSL/1.0.1 e-flips
+- Database client version: libmysql - mysqllnd 5.0.12-dev
+- PHP extension: MySQL improved extension (mysqli)
+- PHP extension: phpMyAdmin v4.6.6
+- PHP version: 7.0.8
 
+**Web Server Features**
+- Apache/2.4.6 (CentOS) OpenSSL/1.0.1 e-flips item 20
+- PHP extension: MySQL improved extension (mysqli)
+- PHP version: 7.0.8
+- JavaScript version: ECMAScript 6 (JS 2015)
+- HTML version: 5
+- CSS version: 3
+
+#### Database Relational Model
+
+#### Screenshoots
 
 ### Team
 
