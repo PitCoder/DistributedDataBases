@@ -9,7 +9,7 @@
  
 ### Mueblerias Quetzal
 <p align="justify">
-This system has been developed for a simulated company named **Mueblerías Quetzal S.A. de C.V.** with the purpose of develope an application which supports inventory control, retail, user registration. Providing to the company a fast and efficient tool and help it to get into e-commerce.
+This system has been developed for a simulated company named **Mueblerías Quetzal S.A. de C.V.** with the purpose of create an application which supports inventory control, retail, user registration. Providing to the company a fast and efficient tool and help it to get into e-commerce.
 </p>
 
 #### Development Tools and Features
@@ -36,6 +36,7 @@ The development of this project was made with the following features grouped in 
 
 ### Team
 
+### License
 > This is the team that made Mueblerias Quetzal and its extensions possible:
 
 | <a href="https://github.com/DavidFCT" target="_blank">**David Flores Casanova**</a> | <a href="https://github.com/PitCoder" target="_blank">**Eric Alejandro López Ayala**</a> | <a href="https://github.com/DanielOrtegaZ" target="_blank">**Daniel Isaí Ortega Zuñiga**</a> |
@@ -43,5 +44,11 @@ The development of this project was made with the following features grouped in 
 | [![David Flores Casanova](https://avatars3.githubusercontent.com/u/37358298?s=200&v=2)](https://github.com/DavidFCT) | [![Eric Alejandro López Ayala](https://avatars3.githubusercontent.com/u/22123865?s=200&v=2)](https://github.com/PitCoder)  | [![Daniel Isaí Ortega Zuñiga](https://avatars1.githubusercontent.com/u/37394304?s=200&v=2)](https://github.com/DanielOrtegaZ) |
 | <p>System Architect and Fullstack Developer</p> | <p>Fullstack Developer and Documenter</p> | <p>System Architect and Fullstack Developer</p> |
 
+[![License](https://img.shields.io/github/license/pitcoder/distributeddatabases.svg?color=orange&style=flat-square)](http://badges.mit-license.org)
+
+- **[Apache 2.0 license](https://github.com/PitCoder/DistributedDataBases/blob/master/LICENSE)**
+- Copyright 2017 © <a href="https://github.com/PitCoder" target="_blank">Eric Alejandro López Ayala</a>
+<a href="https://github.com/DavidFCT" target="_blank">David Flores Casanova</a>
+<a href="https://github.com/DanielOrtegaZ" target="_blank">Daniel Isaí Ortega Zuñiga</a>.
 
 
