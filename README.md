@@ -9,7 +9,7 @@
  
 ### Distributed Databases (An Overview)
 
-<img src="https://github.com/PitCoder/DistributedDataBases/blob/master/IMG/replication.gif" alt="Replication"/>
+<img src="https://github.com/PitCoder/DistributedDataBases/blob/master/IMG/replication.gif?s=500?v=5" alt="Replication"/>
  
 ### Mueblerias Quetzal
 <p align="justify">
