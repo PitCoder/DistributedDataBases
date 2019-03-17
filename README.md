@@ -1,5 +1,9 @@
 # Distributed Databases
+<p align="justify">
+ 
 > This repository contains the implementation of a distributed system step by step applied to a website of company. All topics viewed during the distributed databases course 2017-2 ESCOM IPN are covered.
+
+</p>
 
 ### Content
  - Distributed Databases (An Overview)
@@ -18,9 +22,8 @@ A distributed database is a database in which not all storage devices are attach
  <img src="https://github.com/PitCoder/DistributedDataBases/blob/master/IMG/replication.gif" alt="Replication"/>
 </p>
 
-Two processes ensure that the distributed databases remain up-to-date and current: replication and duplication.
-
 <p align="justify">
+Two processes ensure that the distributed databases remain up-to-date and current: replication and duplication.
  
  - **Replication**: involves using specialized software that looks for changes in the distributive database. Once the changes have been identified, the replication process makes all the databases look the same.
     
